@@ -3,7 +3,7 @@ package src.javaPrograms;
 import java.util.Scanner;
 
 public class FibonacciSeries {
-    /*  Find the Fibonacci Series of nth number
+    /*  Find the Fibonacci Series of nth number.
           0, 1, 1, 2, 3, 5, 8, 13...
       */
     public static void main(String[] args) {
