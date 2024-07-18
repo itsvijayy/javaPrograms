@@ -1,4 +1,4 @@
-package src.javaPrograms;
+package src.javaLearning.programs;
 
 public class NumberCounts {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package src.algorithms;
+package src.javaLearning.algorithms;
 
 public class LinearSearchAlgorithm {
 

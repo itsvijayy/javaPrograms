@@ -1,4 +1,4 @@
-package src.javaPrograms;
+package src.javaLearning.programs;
 
 import java.util.Arrays;
 import java.util.Scanner;

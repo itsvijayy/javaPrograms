@@ -1,8 +1,8 @@
-package src.javaConcepts;
+package src.javaLearning.concepts;
 
 import java.util.Scanner;
 
-public class SwitchCase {
+public class Switch {
     public static void main(String[] args) {
         switchStatement();
         enhancedSwitch();
@@ -36,6 +36,7 @@ public class SwitchCase {
         /*
             Program for fruits name
          */
+
         System.out.print("Enter the fruit name: ");
         String fruits = in.next();
 
