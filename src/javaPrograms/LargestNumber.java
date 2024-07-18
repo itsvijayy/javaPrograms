@@ -4,9 +4,7 @@ import java.util.Scanner;
 
 public class LargestNumber {
     public static void main(String[] args) {
-        /*
-            Program to fetch the largest number
-         */
+
         firstLogic();
         secondLogic();
         thirdLogic();
@@ -34,8 +32,8 @@ public class LargestNumber {
     }
 
     public static void secondLogic() {
-        // Logic 2
         Scanner input = new Scanner(System.in);
+
         System.out.print("Enter 3 numbers: ");
         int a = input.nextInt();
         int b = input.nextInt();
@@ -54,7 +52,6 @@ public class LargestNumber {
     }
 
     public static void thirdLogic() {
-        // Logic 3
         Scanner input = new Scanner(System.in);
         System.out.print("Enter 3 numbers: ");
         int a = input.nextInt();
@@ -63,6 +60,6 @@ public class LargestNumber {
 
         int max = 0;
         max = Math.max(c, Math.max(a, b));
-        System.out.print("Largest number is: " + max);
+        System.out.println(max);
     }
 }

@@ -4,9 +4,6 @@ import java.util.Scanner;
 
 public class Calculator {
     public static void main(String[] args) {
-        /*
-            Program for Calculator with basic arithmatic logics
-         */
         Scanner in = new Scanner(System.in);
 
         int ans = 0;

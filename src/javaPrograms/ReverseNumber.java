@@ -1,7 +1,12 @@
 package src.javaPrograms;
+
+import java.util.Scanner;
+
 public class ReverseNumber {
     public static void main(String[] args) {
-        int num = 1243453;
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the number: ");
+        int num = in.nextInt();
 
         int ans = 0;
         while (num > 0) {
@@ -9,6 +14,6 @@ public class ReverseNumber {
             num /= 10;
             ans = ans * 10 + rem;
         }
-        System.out.println(ans);
+        System.out.println("The output is: " + ans);
     }
 }
