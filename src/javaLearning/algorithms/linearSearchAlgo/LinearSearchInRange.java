@@ -1,4 +1,4 @@
-package src.javaLearning.algorithms;
+package src.javaLearning.algorithms.linearSearchAlgo;
 
 public class LinearSearchInRange {
     public static void main(String[] args) {

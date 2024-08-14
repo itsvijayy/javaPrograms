@@ -1,4 +1,4 @@
-package src.javaLearning.algorithms;
+package src.javaLearning.algorithms.linearSearchAlgo;
 
 import java.util.Arrays;
 

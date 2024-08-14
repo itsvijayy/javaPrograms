@@ -1,4 +1,4 @@
-package src.javaLearning.algorithms;
+package src.javaLearning.algorithms.linearSearchAlgo;
 
 public class LinearSearch_MinimumNumber {
     public static void main(String[] args) {
@@ -9,7 +9,6 @@ public class LinearSearch_MinimumNumber {
     /***
      * Assume my arr != 0
      * return the minimum value in the array
-     * @return
      */
     static int minimumNumber(int[] arr) {
         // let's assume my first element is the smallest one
