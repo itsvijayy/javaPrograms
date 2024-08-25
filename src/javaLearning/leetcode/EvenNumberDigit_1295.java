@@ -1,5 +1,9 @@
 package src.javaLearning.leetcode;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class EvenNumberDigit_1295 {
     // https://leetcode.com/problems/find-numbers-with-even-number-of-digits/description/
 
@@ -7,6 +11,8 @@ public class EvenNumberDigit_1295 {
         int[] nums = {12, 345, 2, 6, 7896};
 
         System.out.println(findNumbers(nums));
+
+        arrayList();
 
     }
 
@@ -53,6 +59,11 @@ public class EvenNumberDigit_1295 {
     // optimised way to find number of digits
     static int optimisedDigits(int num) {
         return (int) (Math.log10(num)) + 1;
+    }
+
+    static void arrayList() {
+        List<String> elements = Arrays.asList("apple", "banana", "cat", "camel", "crocxy");
+        elements.stream().filter(s -> s.startsWith("c")).forEach(System.out::println);
     }
 
 
