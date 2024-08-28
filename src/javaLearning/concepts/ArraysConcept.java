@@ -6,7 +6,7 @@ public class ArraysConcept {
 
     public static void main(String[] args) {
 
-        int [] arr = {2,3,4,5,6,7};
+        int[] arr = {2,3,4,5,6,7};
         /***
             We can print an Array in many ways
             1 - First by using a For Loop
